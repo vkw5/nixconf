@@ -9,6 +9,7 @@
     imports = with self.nixosModules; [
       base
       shell
+      neovim
       desktop
       git
       self.nixosModules.beastHardware
